@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Song Myung', serif;
+}
+
+
+.container {
+    width: 800px;
+}
+
+
+#gallery {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+h1 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: rgb(34, 11, 160);
+}
+
+.btn {
+    border: none;
+    background-color: rgb(27, 25, 110);
+    color:#fff;
+    padding: 8px 20px;
+    margin-top: 1em;
+    font-family: 'Song Myung', serif;
+}
